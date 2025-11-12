@@ -1,0 +1,5 @@
+text = input("Введите строку: ")
+new_text = text.replace(':', '%')
+count = text.count(':')
+print("Результат:", new_text)
+print("Количество замен:", count)
